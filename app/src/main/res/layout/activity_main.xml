@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/blueBrazil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/yellowBrazil"
+        android:padding="10">
+
+        <Button
+            android:id="@+id/btnBuscarTiposMulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar" />
+
+        <Button
+            android:id="@+id/btnAdicionarTiposMulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adicionar" />
+
+        <Button
+            android:id="@+id/btnAlterarTiposMulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alterar" />
+
+        <Button
+            android:id="@+id/btnAExcluirrTiposMulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excluir" />
+
+        <ListView
+            android:id="@+id/listTiposMulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

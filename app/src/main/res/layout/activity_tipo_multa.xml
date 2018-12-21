@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TipoMultaActivity"
+    android:background="@color/blueBrazil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voltar"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/txTipoMultaId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id: "
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edTipoMultaId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/txTipoMultaCodigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Código: "
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edTipoMultaCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/txTipoMultaDescricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição: "
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edTipoMultaDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/txTipoMultaInfrator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Código: "
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edTipoMultaInfrator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/txTipoMultaPontos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pontos: "
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edTipoMultaPontos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="#fff"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+        android:id="@+id/btnSalvarTipoMulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"/>
+
+        <Button
+            android:id="@+id/btnDeletarTipoMulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deletar"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
